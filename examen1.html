@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      position: relative;
+    }
+    .col-sm-4 {float-left}
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      position: absolute;
+      margin-top:2em
+    }
+    #despedida{width: 900px;position:static;background-color: #ccc;height: 100px}
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+h3{font-color:black;}
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">DesafioLatam</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">Chile</a></li>
+        <li><a href="#">Mexico</a></li>
+        <li><a href="#">Colombia</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://i.vimeocdn.com/video/534639574_295x166.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h2>¿Aburrido de hacer campañas de Marketing poco exitosas?</h2>
+          <p>Pon creatividad en tu negocio y con poco dinero empieza a multiplicar tus ingresos. Aprende como trabajar con PNL en tu negocio y hacer hacks para conseguir más clientes</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="http://www.g-talent.cl/wp-content/uploads/2015/12/desafio-latam.png" alt="Image">
+        <div class="carousel-caption">
+          <h3>Taller de growth hacking.</h3>
+          <p>Aprende mas, con menos.</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-left">    
+    <h3>Aprende en 8 horas intensivas de un maestro de Growth Hacking a nivel internacional a como vender de manera más ingeniosa</h3><br>
+    <div class="col-sm-10">
+      <div class="well">
+       <h1>Inscríbete hoy a un taller que hará despegar tus ingresos.</h1>
+<h2>Cuando:</h2>
+<p>Viernes y sábado, 11 y 12 de marzo.</p>
+<h3>Horario:</h3>
+<p>Viernes de 19 a 22 hrs y sábado de 9 a 13hrs.</p>
+
+<h4>El valor del curso es:</h4>
+<p>$160.000 Aprovecha precio 1° preventa $89.500, luego sube a $102.500</p>
+      </div>
+      <div class="well" >
+       <h1>Solicitud</h1>
+<form>
+<fieldset>
+
+<input type="text" name="nombre" placeholder="Nombre y Apellido">
+
+<input type="text" name="nombre" placeholder="Email">
+
+<input type="text" name="nombre" placeholder="Telefono">
+</form>
+<form>
+<select name="cars">
+  <option value="Male">Mujer</option>
+  <option value="Female"> Hombre</option>
+</select>
+</form>
+<form> 
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://static.betazeta.com/www.fayerwayer.com/up/2015/01/ADM400-960x623.jpg" style="width:100%" alt="Image">
+      <h3>Hacker a cargo</h3>
+      <p> <strong>Alejandro Galvis</strong>:Growth Hacker
+Emprendedor social y filántropo, soy un pensador innovador que tiene la capacidad de influir en los demás y generar entusiasmo por ideas a lo largo de organizaciones a través del Branding, ads y marketing para el desarrollo de negocios y servicio al cliente en todas las etapas (B2B2C).
+</p>
+    </div>
+
+    <div class="col-sm-4"> 
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d423337.5238888978!2d-70.915526!3d-34.009883!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c587a8f4327f%3A0x9969992c8b38006f!2sEliodoro+Ya%C3%B1ez+869%2C+Providencia%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1ses!2scl!4v1464138251218" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <h3>Ubicacion</h3>    
+    </div>
+     <div class="col-sm-4">
+     <h3>Empresas que nos apoyan </h3>
+      <img src="/Users/juandanielsilvatrevino/desktop/microsoft.png" style="width:100%" alt="Image">
+      
+
+      
+
+    </div>
+    </div>
+    <div id="despedida"> <h1>No pierdas esta oportunidad!</h1></div>
+
+<footer class="container-fluid text-center">
+<footer >
+    <div class="container">
+      <center>
+        <div class="row">
+
+          <div class="col-md-4">
+            <span class="copyright">Todos los derechos &copy; Empresa En1Mes</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li><a href="http://twitter.com/en1mes" target="_blank"><img src="https://s3.amazonaws.com/importayexporta.com/img/twitter.png" alt="Twitter" /></a>
+
+              </li>
+              <li><a href="http://www.facebook.com/en1mes" target="_blank"><img src="https://s3.amazonaws.com/importayexporta.com/img/facebook.png" alt="Facebook" /></a>
+
+              </li>
+              <li><a href="https://www.linkedin.com/company/3505487?trk=tyah&trkInfo=tarId%3A1413551216718%2Ctas%3Aen%201%20mes%2Cidx%3A2-1-2" target="_blank"><img src="https://s3.amazonaws.com/importayexporta.com/img/Linkedin.png" alt="LinkedIn" /></a>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li>Nueva Providencia 1363, oficina 201, Providencia, Santiago
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </center>
+    </div>
+  </footer>
+
+
+
+
+</body>
+</html>
